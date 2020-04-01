@@ -1,6 +1,7 @@
 ## Modification for ESE 650 Final Project
 
 ### Running on Windows
+- Install Visual Studio 2019
 - Install python 3.7 (3.8+ will not work)
 - Download torch-0.4.1-cp37-cp37m-win_amd64.whl from https://download.pytorch.org/whl/cpu/torch_stable.html
 - In desired directory, run:
