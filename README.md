@@ -1,3 +1,20 @@
+## Modification for ESE 650 Final Project
+
+### Running on Windows
+- Install python 3.7 (3.8+ will not work)
+- Download torch-0.4.1-cp37-cp37m-win_amd64.whl from https://download.pytorch.org/whl/cpu/torch_stable.html
+- In desired directory, run:
+```
+py -3.7 -m venv venv
+venv\Scripts\activate
+pip install Cython
+pip install torch-0.4.1-cp37-cp37m-win_amd64.whl
+pip install -r savn\requirements.txt
+
+```
+
+---
+
 # Learning to Learn how to Learn: Self-Adaptive Visual Navigation using Meta-Learning
 
 By Mitchell Wortsman, Kiana Ehsani, Mohammad Rastegari, Ali Farhadi and Roozbeh Mottaghi (Oral Presentation at CVPR 2019).
